@@ -1,0 +1,45 @@
+
+<header>
+  <ion-toolbar>
+  <ion-buttons slot="start" color="secundary">
+    <ion-back-button text="regresar" defaultHref="/">
+    </ion-back-button>
+  </ion-buttons>
+
+  <ion-title>Avatar</ion-title>
+
+
+  <ion-buttons slot="end">
+    <ion-avatar>
+      <img src = "/assets/iron-man.jpg">
+    </ion-avatar>
+
+  </ion-buttons>
+  </ion-toolbar>
+</header>
+
+
+  <ion-content padding>
+
+
+  <ion-chip color="primary" *ngFor="let i of [1,1,1,1,1,1]"  >
+
+    <ion-avatar >
+      <img src = "/assets/iron-man.jpg">
+    </ion-avatar>
+<ion-label>Iron Man</ion-label>
+
+
+  </ion-chip>
+
+    <ion-list>
+      <ion-item *ngFor="let i of [1,1,1,1,1,1,1,1,1]">
+        <ion-avatar slot="start">
+          <img src = "/assets/iron-man.jpg">
+        </ion-avatar>
+<ion-label>Iron Man</ion-label>
+
+      </ion-item>
+    </ion-list>
+
+</ion-content>

@@ -74,7 +74,69 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+
+// youtube
+--ion-color-youtube: #ff0000;
+--ion-color-youtube-rgb: 255,0,0;
+--ion-color-youtube-contrast: #ffffff;
+--ion-color-youtube-contrast-rgb: 255,255,255;
+--ion-color-youtube-shade: #e00000;
+--ion-color-youtube-tint: #ff1a1a;
+
+// google
+  --ion-color-google: #ffffff;
+	--ion-color-google-rgb: 255,255,255;
+	--ion-color-google-contrast: #000000;
+	--ion-color-google-contrast-rgb: 0,0,0;
+	--ion-color-google-shade: #e0e0e0;
+	--ion-color-google-tint: #ffffff;
+
+  // facebook
+  --ion-color-facebook: #3b5998;
+	--ion-color-facebook-rgb: 59,89,152;
+	--ion-color-facebook-contrast: #ffffff;
+	--ion-color-facebook-contrast-rgb: 255,255,255;
+	--ion-color-facebook-shade: #344e86;
+	--ion-color-facebook-tint: #4f6aa2;
+
+
+
 }
+
+.ion-color-youtube{
+--ion-color-base: var(--ion-color-youtube) !important;
+--ion-color-base-rgb: var(--ion-color-youtube-rgb) !important;
+--ion-color-base-contrast: var(--ion-color-youtube-contrast) !important;
+--ion-color-base-contrast-rgb: var(--ion-color-youtube-contrast-rgb) !important;
+--ion-color-base-shade: var(--ion-color-youtube-shade) !important;
+--ion-color-base-tint: var(--ion-color-youtube-tint) !important;
+}
+
+
+.ion-color-google{
+  --ion-color-base: var(--ion-color-google) !important;
+  --ion-color-base-rgb: var(--ion-color-google-rgb) !important;
+  --ion-color-base-contrast: var(--ion-color-google-contrast) !important;
+  --ion-color-base-contrast-rgb: var(--ion-color-google-contrast-rgb) !important;
+  --ion-color-base-shade: var(--ion-color-google-shade) !important;
+  --ion-color-base-tint: var(--ion-color-google-tint) !important;
+  }
+
+
+  .ion-color-facebook{
+    --ion-color-base: var(--ion-color-facebook) !important;
+    --ion-color-base-rgb: var(--ion-color-facebook-rgb) !important;
+    --ion-color-base-contrast: var(--ion-color-facebook-contrast) !important;
+    --ion-color-base-contrast-rgb: var(--ion-color-facebook-contrast-rgb) !important;
+    --ion-color-base-shade: var(--ion-color-facebook-shade) !important;
+    --ion-color-base-tint: var(--ion-color-facebook-tint) !important;
+    }
+
+
+
+
+
 
 @media (prefers-color-scheme: dark) {
   /*
@@ -145,6 +207,10 @@
     --ion-color-light-contrast-rgb: 255,255,255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
+
+
+
+
   }
 
   /*

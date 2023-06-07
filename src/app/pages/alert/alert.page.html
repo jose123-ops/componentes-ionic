@@ -1,0 +1,21 @@
+<app-header [titulo]="titulo ||'Alert page'"></app-header>
+
+<ion-content padding>
+
+  <!-- boton de alerta -->
+
+  <ion-button expand="full" color="primary" id="present-alert">Mostrar alert</ion-button>
+  <ion-alert trigger="present-alert" header="Alert" subHeader="Mensaje Importante" message="Esta es una alerta!"
+    [buttons]="alertButtons"></ion-alert>
+
+  <!-- boton de alert-input -->
+  <ion-button expand="full" id="present-alerts">Mostrar Input</ion-button>
+  <ion-alert trigger="present-alerts" header="por favor ingresa tu informacion" [buttons]="alertButton"
+    [inputs]="alertInputs"></ion-alert>
+
+
+
+
+
+
+</ion-content>
